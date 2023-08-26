@@ -20,7 +20,7 @@ export const createAboutContent = (sectionOfPage) => {
     const restaurantNameHeaderTwo = document.createElement("h1");
     restaurantNameHeaderTwo.style.all = "unset";
     restaurantNameHeaderTwo.textContent = "OUR MISSION";
-    restaurantNameHeaderTwo.style.fontSize = "6rem";
+    restaurantNameHeaderTwo.style.fontSize = "5rem";
     restaurantNameHeaderTwo.style.position = "absolute";
     restaurantNameHeaderTwo.style.marginTop = "50px";
     mainSectionHeader.style.borderBottom = "solid #F7B267";
