@@ -2,7 +2,8 @@ export const createAboutContent = (sectionOfPage) => {
 
 
     sectionOfPage.style.backgroundColor = "white";
-
+    sectionOfPage.style.justifyContent = "flex-start";
+    
     const mainSectionHeader = document.createElement("div");
     mainSectionHeader.style.display = "flex";
     mainSectionHeader.style.flexDirection = "column";
