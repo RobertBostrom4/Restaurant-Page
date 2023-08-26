@@ -1,6 +1,8 @@
 export const createHomeContent = (sectionOfPage) => {
 
     sectionOfPage.style.justifyContent = "center";
+    sectionOfPage.style.backgroundColor = "unset";
+
     const mainSectionHeader = document.createElement("div");
     mainSectionHeader.style.display = "flex";
     mainSectionHeader.style.alignItems = "center";
